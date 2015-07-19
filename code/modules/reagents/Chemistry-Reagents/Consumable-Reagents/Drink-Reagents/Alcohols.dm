@@ -623,3 +623,20 @@ datum/reagent/consumable/ethanol/drunkenblumpkin
 	description = "A weird mix of whiskey and blumpkin juice."
 	color = "#1EA0FF" // rgb: 102, 67, 0
 	boozepwr = 35
+
+
+datum/reagent/consumable/ethanol/doctor_delight
+	name = "The Doctor's Delight"
+	id = "doctorsdelight"
+	description = "A gulp a day keeps the MediBot away. That's probably for the best."
+	color = "#FF8CFF" // rgb: 255, 140, 255
+	metabolization_rate = 0.25 * REAGENTS_METABOLISM
+	boozepwr = 50
+
+datum/reagent/consumable/doctor_delight/on_mob_life(var/mob/living/M as mob)
+	M.adjustToxLoss(-0.7*REM)
+	M.adjustOxyLoss(-0.7*REM)
+	M.adjustBruteLoss(-0.7*REM)
+	M.adjustFireLoss(-0.7*REM)
+	..()
+	return

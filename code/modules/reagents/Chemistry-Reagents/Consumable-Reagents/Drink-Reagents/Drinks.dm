@@ -389,21 +389,6 @@ datum/reagent/consumable/cafe_latte/on_mob_life(var/mob/living/M as mob)
 	..()
 	return
 
-datum/reagent/consumable/doctor_delight
-	name = "The Doctor's Delight"
-	id = "doctorsdelight"
-	description = "A gulp a day keeps the MediBot away. That's probably for the best."
-	color = "#FF8CFF" // rgb: 255, 140, 255
-	metabolization_rate = 0.25 * REAGENTS_METABOLISM
-
-datum/reagent/consumable/doctor_delight/on_mob_life(var/mob/living/M as mob)
-	M.adjustToxLoss(-0.7*REM)
-	M.adjustOxyLoss(-0.7*REM)
-	M.adjustBruteLoss(-0.7*REM)
-	M.adjustFireLoss(-0.7*REM)
-	..()
-	return
-
 datum/reagent/consumable/chocolatepudding
 	name = "Chocolate Pudding"
 	id = "chocolatepudding"

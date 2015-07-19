@@ -27,11 +27,11 @@ var/global/comms_allowed = 0 //By default, the server does not allow messages to
 
 
 //This was a define, but I changed it to a variable so it can be changed in-game.(kept the all-caps definition because... code...) -Errorage
-var/MAX_EX_DEVESTATION_RANGE = 20 // our own super snowflake bombcap! I don't want it to be too high in case explosion(s) kill the server ~ Cyrema
-var/MAX_EX_HEAVY_RANGE = 40
-var/MAX_EX_LIGHT_RANGE = 80
-var/MAX_EX_FLASH_RANGE = 80
-var/MAX_EX_FLAME_RANGE = 80
+var/MAX_EX_DEVESTATION_RANGE = 5 // woops look like we can't have fun anymore, lessened to 5/10/20
+var/MAX_EX_HEAVY_RANGE = 10
+var/MAX_EX_LIGHT_RANGE = 20
+var/MAX_EX_FLASH_RANGE = 20
+var/MAX_EX_FLAME_RANGE = 20
 
 var/list/be_special_flags = list(
 	"Traitor" = BE_TRAITOR,

@@ -824,7 +824,7 @@
 				if(M.dna)
 					damage += M.dna.species.punchmod
 
-				if(H.stat==DEAD && damage >= 9)
+				if(H.stat==DEAD && damage >= 4)
 					if(H.stomach_contents.len)
 						for(var/mob/A in H.stomach_contents)
 							A.loc=H.loc

@@ -88,7 +88,7 @@
 				if(3)
 					say(pick("GEY AWAY FROM ME U GREIFING PRICK!!!!", ";HELP SHITECIRTY MURDERIN  MEE!!!", ";CAL; tEH SHUTTLE!!!!!", ";wearnig siNGUARLTY IS .... FIne xDDDDDDDDD", ";AI laW 22 Opin airlok", ";this SI mY stATIon......", "who the HELL do u thenk u r?!!!!", "geT THE FUCK OUTTTT", ";;CRAGING THIS STTAYTION WITH NIO SURVIVROS", "i shure hop dere are no PRED arund!!!!", "i play [pick("heds", "ceptin", "hop")] to only ORDER not DO", "erp?", "i want to digest u!!!", "CRAGO ORDER [pick("GUNS", "HATS", "GLOWY CYSTAL", "PIZZA")] PLS", "NOM!1!", "iF it COMPILES it werks!", "LYNCH RObOTIKS NOT GIBING ME MECH WTF?/?", "GWURGLE!!", "ahelp kan i b [pick("ert", "shadowlig", "ninja", "admen")]", "balid saled!", "LINCH VIRO", "VIRO GIB SuPR VIrUS!!", "Ai plai vxtest2!"))
 				if(4)
-					say(pick(";taitor trie to make meh malk/?!1!1", ";ENGIE TATOR HE SET UP SINGULO!!11", "WHEN NAGAS ADdED?/?", "SINDYIE ON SAtIONS GiB gUNS PLISE", "CcLOWN IV SlIPPING MI, SEc t BAR@", "ahelp iT's RP vALiDZ!", "HYDROBONIX PLS WEED PLIESe PLIsE BLAzE IT1!!!", "HALP GOLIATH TENETCAL RAPPPP!!!!111", "DudSE it'S 4:20 LmAO BLAZZ IT xDDDDD", "DRONE TOOK METAL kIlL It!1!"))
+					say(pick(";taitor trie to make meh malk/?!1!1", ";ENGIE TATOR HE SET UP SINGULO!!11", "WHEN NAGAS ADdED?/?", "SINDYIE ON SAtIONS GiB gUNS PLISE", "CcLOWN IV SlIPPING MI, SEc t BAR@", "ahelp iT's RP vALiDZ!", "HYDROBONIX PLS WEED PLIESe PLIsE BLAzE IT1!!!", "HALP GOLIATH TENETCAL RAPPPP!!!!111", "DudSE it'S 4:20 LmAO BLAZZ IT xDDDDD", "DRONE TOOK METAL kIlL It!1!", "I DIDS IT CUZ IM DUMB LOL"))
 
 
 /mob/living/carbon/human/handle_mutations_and_radiation()
