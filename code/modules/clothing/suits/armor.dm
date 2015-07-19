@@ -35,20 +35,13 @@
 	desc = "A trenchcoat enchanced with a special lightweight kevlar. The epitome of tactical plainclothes."
 	icon_state = "hostrench"
 	item_state = "hostrench"
-	body_parts_covered = CHEST|GROIN|ARMS|LEGS
-	armor = list(melee = 65, bullet = 40, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
-	flags_inv = HIDEJUMPSUIT
-	flags = THICKMATERIAL
-	cold_protection = CHEST|GROIN|LEGS|ARMS
-	heat_protection = CHEST|GROIN|LEGS|ARMS
-	strip_delay = 80
+	flags_inv = !HIDEJUMPSUIT
 
 /obj/item/clothing/suit/armor/vest/warden
 	name = "warden's jacket"
 	desc = "A red jacket with silver rank pips and body armor strapped on top."
 	icon_state = "warden_jacket"
 	item_state = "armor"
-	flags = THICKMATERIAL
 	body_parts_covered = CHEST|GROIN|ARMS
 	cold_protection = CHEST|GROIN|ARMS|HANDS
 	heat_protection = CHEST|GROIN|ARMS|HANDS
@@ -65,7 +58,6 @@
 	icon_state = "capcarapace"
 	item_state = "armor"
 	body_parts_covered = CHEST|GROIN
-	flags = THICKMATERIAL
 	armor = list(melee = 50, bullet = 30, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
 
 
@@ -101,7 +93,7 @@
 	item_state = "armor_reflec"
 	blood_overlay_type = "armor"
 	armor = list(melee = 10, bullet = 10, laser = 80, energy = 50, bomb = 0, bio = 0, rad = 0)
-	var/hit_reflect_chance = 40
+	var/hit_reflect_chance = 50
 
 /obj/item/clothing/suit/armor/laserproof/IsReflect(var/def_zone)
 	if(!(def_zone in list("chest", "groin"))) //If not shot where ablative is covering you, you don't get the reflection bonus!
